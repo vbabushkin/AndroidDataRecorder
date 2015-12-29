@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Please press the start button to record the video..."
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    />
+
+<ImageButton
+    android:id="@+id/send"
+    android:layout_width="fill_parent" 
+    android:layout_height="200dp"
+    android:background="#00000000" 
+    android:scaleType="fitXY"
+    android:src="@drawable/new_button"
+    />
+<TextView  
+    android:id="@+id/textin"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+	android:layout_below="@+id/send"
+    />
+
+
+</LinearLayout>
